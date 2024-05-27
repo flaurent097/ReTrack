@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreLocation
-import Combine
 import WatchKit
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
