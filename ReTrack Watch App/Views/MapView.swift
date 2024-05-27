@@ -106,18 +106,6 @@ struct MapView: View {
 
 
                 HStack {
-//                    Button(action: {
-//                        printAllCoordinates()
-//                    }) {
-//                        Text("P")
-//                            .font(.system(size: 18).bold())
-//                            .frame(width: 40, height: 40)
-//                            .foregroundColor(.white)
-//                            .background(Color.blue)
-//                            .cornerRadius(45)
-//                    }
-//                    .buttonStyle(PlainButtonStyle())
-                     
                     if !locationManager.tracking && !locationManager.trackback {
                         Button(action: {
                             locationManager.startTracking()
@@ -183,13 +171,6 @@ struct MapView: View {
         }
         .edgesIgnoringSafeArea(.vertical)
         .mapScope(mapScope)
-    }
-    
-    private func printAllCoordinates() {
-        print("Printing all coordinates:")
-        for annotation in locationManager.annotations {
-            print("Latitude: \(annotation.coordinate.latitude), Longitude: \(annotation.coordinate.longitude)")
-        }
     }
 }
 
