@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SwipeControls: View {
-    
     @ObservedObject var locationManager: LocationManager
+    
     @Binding var selectedTab: Int
 
     var body: some View {

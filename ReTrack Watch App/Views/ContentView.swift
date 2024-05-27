@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var locationManager = LocationManager() // Shared instance
+    @StateObject private var locationManager = LocationManager()
 
     @State var selectedTab = 1
     
