@@ -196,4 +196,3 @@ struct MapView: View {
 #Preview {
     MapView(locationManager: LocationManager())
 }
-
