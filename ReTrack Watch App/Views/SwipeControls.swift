@@ -1,6 +1,6 @@
 //
 //  SwipeControls.swift
-//  ReTrack_New Watch App
+//  ReTrack Watch App
 //
 //  Created by Felix Laurent on 19/05/24.
 //

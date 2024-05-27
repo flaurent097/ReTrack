@@ -1,6 +1,6 @@
 //
 //  Annotation.swift
-//  ReTrack_New Watch App
+//  ReTrack Watch App
 //
 //  Created by Felix Laurent on 17/05/24.
 //
