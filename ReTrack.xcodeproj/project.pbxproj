@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465FF14E2C046F2C00FA53BE /* ReTrack Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 465FF14D2C046F2C00FA53BE /* ReTrack Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		465FF1532C046F2C00FA53BE /* ReTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF1522C046F2C00FA53BE /* ReTrackApp.swift */; };
+		465FF1552C046F2C00FA53BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF1542C046F2C00FA53BE /* ContentView.swift */; };
+		465FF1572C046F2D00FA53BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465FF1562C046F2D00FA53BE /* Assets.xcassets */; };
+		465FF15A2C046F2D00FA53BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465FF1592C046F2D00FA53BE /* Preview Assets.xcassets */; };
+		465FF1662C0470A600FA53BE /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF1652C0470A600FA53BE /* Annotations.swift */; };
+		465FF1682C0470BE00FA53BE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF1672C0470BE00FA53BE /* LocationManager.swift */; };
+		465FF16B2C04713100FA53BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF16A2C04713100FA53BE /* MapView.swift */; };
+		465FF16D2C04714500FA53BE /* SwipeControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FF16C2C04714500FA53BE /* SwipeControls.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465FF14F2C046F2C00FA53BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465FF1412C046F2C00FA53BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465FF14C2C046F2C00FA53BE;
+			remoteInfo = "ReTrack Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		465FF1602C046F2D00FA53BE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				465FF14E2C046F2C00FA53BE /* ReTrack Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		465FF1472C046F2C00FA53BE /* ReTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465FF14D2C046F2C00FA53BE /* ReTrack Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReTrack Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465FF1522C046F2C00FA53BE /* ReTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReTrackApp.swift; sourceTree = "<group>"; };
+		465FF1542C046F2C00FA53BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		465FF1562C046F2D00FA53BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465FF1592C046F2D00FA53BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		465FF1652C0470A600FA53BE /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		465FF1672C0470BE00FA53BE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		465FF16A2C04713100FA53BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		465FF16C2C04714500FA53BE /* SwipeControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeControls.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465FF14A2C046F2C00FA53BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465FF1402C046F2C00FA53BE = {
+			isa = PBXGroup;
+			children = (
+				465FF1512C046F2C00FA53BE /* ReTrack Watch App */,
+				465FF1482C046F2C00FA53BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465FF1482C046F2C00FA53BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1472C046F2C00FA53BE /* ReTrack.app */,
+				465FF14D2C046F2C00FA53BE /* ReTrack Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465FF1512C046F2C00FA53BE /* ReTrack Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1522C046F2C00FA53BE /* ReTrackApp.swift */,
+				465FF1642C04708A00FA53BE /* Models */,
+				465FF16E2C04815200FA53BE /* Manager */,
+				465FF1692C04710F00FA53BE /* Views */,
+				465FF1562C046F2D00FA53BE /* Assets.xcassets */,
+				465FF1582C046F2D00FA53BE /* Preview Content */,
+			);
+			path = "ReTrack Watch App";
+			sourceTree = "<group>";
+		};
+		465FF1582C046F2D00FA53BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1592C046F2D00FA53BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		465FF1642C04708A00FA53BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1652C0470A600FA53BE /* Annotations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		465FF1692C04710F00FA53BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1542C046F2C00FA53BE /* ContentView.swift */,
+				465FF16A2C04713100FA53BE /* MapView.swift */,
+				465FF16C2C04714500FA53BE /* SwipeControls.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		465FF16E2C04815200FA53BE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				465FF1672C0470BE00FA53BE /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465FF1462C046F2C00FA53BE /* ReTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465FF1612C046F2D00FA53BE /* Build configuration list for PBXNativeTarget "ReTrack" */;
+			buildPhases = (
+				465FF1452C046F2C00FA53BE /* Resources */,
+				465FF1602C046F2D00FA53BE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465FF1502C046F2C00FA53BE /* PBXTargetDependency */,
+			);
+			name = ReTrack;
+			productName = ReTrack;
+			productReference = 465FF1472C046F2C00FA53BE /* ReTrack.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		465FF14C2C046F2C00FA53BE /* ReTrack Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465FF15D2C046F2D00FA53BE /* Build configuration list for PBXNativeTarget "ReTrack Watch App" */;
+			buildPhases = (
+				465FF1492C046F2C00FA53BE /* Sources */,
+				465FF14A2C046F2C00FA53BE /* Frameworks */,
+				465FF14B2C046F2C00FA53BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReTrack Watch App";
+			productName = "ReTrack Watch App";
+			productReference = 465FF14D2C046F2C00FA53BE /* ReTrack Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465FF1412C046F2C00FA53BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					465FF1462C046F2C00FA53BE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					465FF14C2C046F2C00FA53BE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 465FF1442C046F2C00FA53BE /* Build configuration list for PBXProject "ReTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465FF1402C046F2C00FA53BE;
+			productRefGroup = 465FF1482C046F2C00FA53BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465FF1462C046F2C00FA53BE /* ReTrack */,
+				465FF14C2C046F2C00FA53BE /* ReTrack Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465FF1452C046F2C00FA53BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465FF14B2C046F2C00FA53BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465FF15A2C046F2D00FA53BE /* Preview Assets.xcassets in Resources */,
+				465FF1572C046F2D00FA53BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465FF1492C046F2C00FA53BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465FF16D2C04714500FA53BE /* SwipeControls.swift in Sources */,
+				465FF1682C0470BE00FA53BE /* LocationManager.swift in Sources */,
+				465FF1552C046F2C00FA53BE /* ContentView.swift in Sources */,
+				465FF16B2C04713100FA53BE /* MapView.swift in Sources */,
+				465FF1532C046F2C00FA53BE /* ReTrackApp.swift in Sources */,
+				465FF1662C0470A600FA53BE /* Annotations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465FF1502C046F2C00FA53BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465FF14C2C046F2C00FA53BE /* ReTrack Watch App */;
+			targetProxy = 465FF14F2C046F2C00FA53BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		465FF15B2C046F2D00FA53BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465FF15C2C046F2D00FA53BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		465FF15E2C046F2D00FA53BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReTrack Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H49J96R9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ReTrack;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ReTrack will use your location to provide tracking features";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReTrack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		465FF15F2C046F2D00FA53BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReTrack Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H49J96R9T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ReTrack;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ReTrack will use your location to provide tracking features";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReTrack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		465FF1622C046F2D00FA53BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H49J96R9T;
+				INFOPLIST_KEY_CFBundleDisplayName = ReTrack;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		465FF1632C046F2D00FA53BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H49J96R9T;
+				INFOPLIST_KEY_CFBundleDisplayName = ReTrack;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ReTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465FF1442C046F2C00FA53BE /* Build configuration list for PBXProject "ReTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465FF15B2C046F2D00FA53BE /* Debug */,
+				465FF15C2C046F2D00FA53BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465FF15D2C046F2D00FA53BE /* Build configuration list for PBXNativeTarget "ReTrack Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465FF15E2C046F2D00FA53BE /* Debug */,
+				465FF15F2C046F2D00FA53BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465FF1612C046F2D00FA53BE /* Build configuration list for PBXNativeTarget "ReTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465FF1622C046F2D00FA53BE /* Debug */,
+				465FF1632C046F2D00FA53BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465FF1412C046F2C00FA53BE /* Project object */;
+}
